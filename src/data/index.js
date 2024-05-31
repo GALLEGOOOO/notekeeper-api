@@ -15,16 +15,7 @@ const notes = [
     status: STATUS.PENDING,
     due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
     created_at: Date.now(),
-  },
-  {
-    _id: generatePrefixedID(),
-    name: "Walk the dog",
-    description: "Go to the park",
-    important: false,
-    status: STATUS.PENDING,
-    due_date: new Intl.DateTimeFormat("en-EN").format(new Date(Date.now())),
-    created_at: Date.now(),
-  },
+  }
   
 ];
 
